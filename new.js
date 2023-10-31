@@ -180,3 +180,13 @@ future.addEventListener('mouseleave',function(){
   future.style.boxShadow="0 0 20px #364d47"
   // bg.style.backgroundColor="white"
 })
+
+const nav = document.querySelector('.right-menu');
+const navigation = document.querySelector('.navigation');
+
+const toggleNavbar = ()=>{
+  navigation.classList.toggle("active")
+}
+
+nav.addEventListener('click', ()=> toggleNavbar())
+

@@ -221,6 +221,7 @@ h3{
   align-items: flex-start;
   justify-content: space-evenly;
   font-size: 15px;
+  position: relative;
   
 }
 #l1{
@@ -742,7 +743,86 @@ h3{
   object-fit: cover;
 }
 
+.navigation .left-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigation .left-menu i{
+  font-size: 4vw;
+  color:white;
+  display: none;
+}
+.navigation .right-menu i{
+  font-size: 4.2vw;
+  color:white;
+  display:none;
+}
   @media (max-width:780px) {
+    .active .navigation .items a{
+      font-size: 3.5vw;
+    }
+    .navigation .left-menu #fakk{
+      display:none;
+    }
+    
+    #main{
+      overflow-x: hidden;
+    }
+    
+    .navigation .right-menu i{
+      font-size: 5vw;
+      color:white;
+      display:block;
+    }
+    .navigation .left-menu i{
+      font-size: 5vw;
+      color:white;
+      display: block;
+    }
+    .navigation .items{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height:100vh;
+      width:100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: all 0.3s linear;
+      opacity: 0;
+      visibility:hidden;
+      text-align: left;
+      z-index: -1;
+      gap:3vw;
+      font-size: 3vw;
+    }
+    
+    .navigation .items a{
+      font-size: 3vw;
+    }
+    
+    .navigation .right-menu #faa{
+      display: none;
+    }
+    .active .items{
+      opacity: 1;
+      visibility:visible;
+      transform: translateX(0);
+    }
+   .active .right-menu #faa{
+    display:block;
+    color: #b7e2d7;
+    z-index: 999;
+   }
+   .active .right-menu #fau{
+    display:none;
+    color: #b7e2d7;
+    z-index: 999;
+   }
     .page2{
       height: 50vh;
     }
@@ -875,7 +955,9 @@ h3{
       font-size: 3vw ;
     }
   }
-  
+  .navigation .logo h1{
+    font-size: 2.5vw;
+  }
 
   @media (max-width:420px) {
     #main{
@@ -909,8 +991,10 @@ h3{
       width:70%;
     }
     .navigation .items a{
-      font-size: 2.8vw;
-      
+      font-size: 2.8vw;  
+    }
+    .footer{
+      display:block;
     }
   }
 
