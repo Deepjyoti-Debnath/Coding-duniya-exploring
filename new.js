@@ -111,11 +111,11 @@ side4.addEventListener('mouseleave',function(){
 var fright = document.querySelector(".f1-right");
 
 fright.addEventListener('mouseenter',function(){
-  fright.style.backgroundImage="url(https://c8.alamy.com/comp/J1805G/a-vector-illustration-of-female-programmer-coding-on-a-computer-J1805G.jpg)"
+  fright.style.backgroundImage="url(./f2.webp)"
 
 })
 fright.addEventListener('mouseleave',function(){
-  fright.style.backgroundImage="url(https://t4.ftcdn.net/jpg/05/90/45/35/360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD.jpg)"
+  fright.style.backgroundImage="url(./f1.webp)"
   
 })
 

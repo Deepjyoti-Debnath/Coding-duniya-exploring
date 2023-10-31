@@ -31,7 +31,7 @@ html,body{
 body{
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1485811661309-ab85183a729c?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.6)), url("./bg.webp");
   background-position: center;
    background-attachment: fixed;
   background-size: cover;
@@ -334,7 +334,7 @@ h3{
     padding: 0 10px;
     width:45%;
     height:400px;
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("https://t4.ftcdn.net/jpg/05/90/45/35/360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("./f1.webp");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -353,7 +353,7 @@ h3{
     padding:3vw 5vw;
     height:100vh;
     width:100%;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://t4.ftcdn.net/jpg/03/13/40/45/360_F_313404541_e9YZ3pht6oEEkMXuhxTboqXA2B2ShNnC.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./f3.webp");
     background-position: center;
     background-size: 100% 100%;
     display: flex;
