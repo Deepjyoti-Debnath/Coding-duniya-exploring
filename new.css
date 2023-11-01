@@ -798,6 +798,7 @@ h3{
       transition: all 0.3s linear;
       opacity: 0;
       visibility:hidden;
+      pointer-events: none;
       text-align: left;
       z-index: -1;
       gap:3vw;
@@ -966,7 +967,10 @@ h3{
     .footer{
       width:100%;
       height:50vh;
+      display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
     }
     .fleft a{
       font-size: 3vw;
@@ -980,12 +984,12 @@ h3{
     .fright a{
       font-size: 3vw ;
     }
-    .navigation .items{
+    /* .navigation .items{
       position: absolute;
       left: 0;
       top: 0;
       height:100vh;
-      width:50%;
+      width:100%;
       background-color: black;
       display: flex;
       flex-direction: column;
@@ -1022,12 +1026,12 @@ h3{
     display:none;
     color: #b7e2d7;
     z-index: 999;
-   }
+   } */
     #main{
       overflow: hidden;
     }
     .page2{
-      display:none;
+      display: none;
     }
     #r5 h1{
       font-size: 6vw;
@@ -1047,11 +1051,11 @@ h3{
       top:0;
     }
     .navigation .logo h1{
-      font-size: 3vw;
+      font-size: 2vw;
     }
     .navigation .items{
       gap:2vw;
-      width:70%;
+      
     }
     .navigation .items a{
       font-size: 2.8vw;  
