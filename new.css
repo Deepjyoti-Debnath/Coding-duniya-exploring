@@ -758,6 +758,7 @@ h3{
   color:white;
   display:none;
 }
+
   @media (max-width:780px) {
     .active .navigation .items a{
       font-size: 3.5vw;
@@ -956,10 +957,70 @@ h3{
     }
   }
   .navigation .logo h1{
-    font-size: 2.5vw;
+    font-size: 1.5vw;
   }
 
   @media (max-width:420px) {
+    .footer{
+      width:100%;
+      height:50vh;
+      flex-direction: column;
+    }
+    .fleft a{
+      font-size: 3vw;
+    }
+    .fmid{
+      flex-direction: row;
+    }
+    .fmid i{
+      font-size: 4.5vw;
+    }
+    .fright a{
+      font-size: 3vw ;
+    }
+    .navigation .items{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height:100vh;
+      width:100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: all 0.3s linear;
+      opacity: 0;
+      visibility:hidden;
+      text-align: left;
+      z-index: -1;
+      gap:3vw;
+      font-size: 3vw;
+    }
+    
+    .navigation .items a{
+      font-size: 3vw;
+    }
+    
+    .navigation .right-menu #faa{
+      display: none;
+    }
+    .active .items{
+      opacity: 1;
+      visibility:visible;
+      transform: translateX(0);
+    }
+   .active .right-menu #faa{
+    display:block;
+    color: #b7e2d7;
+    z-index: 999;
+   }
+   .active .right-menu #fau{
+    display:none;
+    color: #b7e2d7;
+    z-index: 999;
+   }
     #main{
       overflow: hidden;
     }

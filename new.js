@@ -13,7 +13,7 @@
 // })
 
 var tl = gsap.timeline()
-tl.from(".logo h1 , .items a",{
+tl.from(".logo h1 , .items a ,.right-menu i",{
   y:100,
   opacity:0,
   duration:1.5,
